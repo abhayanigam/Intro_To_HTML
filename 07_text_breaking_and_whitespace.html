@@ -1,0 +1,60 @@
+<!--
+    Impoertant Notes:
+        Text Breaking and Whitespace : There are specific elements we can use to
+                                        instruct the browser how to do that.
+        Some Character Entities are -
+
+        1. <pre></pre> - WHich tell the client most of the time the browser (That this particular 
+                        content has been preformatted)
+
+        2. <br/> or <br> - br or break element that allows you to to specifically tell the browser to 
+                            add a line break at that point.
+
+        3. <hr/> or <hr>- hr or horizontal rule , that allows you to to put a horizontal line
+                            right across the page.
+
+        4. &nbsp; - This is genrally known as a character entity and this is a particular type of markup
+                    we can provide to the browser *That represent a character that's special*
+                    nbsp stand for (Non breaking space)
+
+        5. &lt; and &gt; - That represent the less than and greater than symbols. We use these particular 
+                            symbols in order to denote in the HTML.(&lt; -> (<) and &Lt; -> (<<) )
+                            
+        6. &copy; - Character Entity is used to print copyright symbol instead of text.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Shop</title>
+</head>
+<body>
+    <div id = "article">
+
+    <div id = "header">
+        <h1>The Coffee Shop</h1>
+        <h2>Coffee To keep your brain wired.</h2>
+    </div>
+
+    <div id = "body">
+        At Wired Brain Coffee, we believe that coffee can be the fuel your active brain needs.
+        <br/>And we want you to believe it too.
+        <p>Coffee <span class="fact"> has long been known </span> to provide a boost to brain activity and increase&nbsp;blood flow</p>
+        <p>Another dubious statement about coffee to try and sell it.</p>
+    </div>
+
+        <h2>Testimonials</h2>
+        <hr/>
+    </div>
+
+    <div id = "footer">
+        <!--
+            &copy; is used to print copyright symbol instead of text.
+        -->
+        &copy; Abhaya 2021
+    </div>
+</body>
+</html>
