@@ -1,0 +1,41 @@
+<!--
+    Important Notes:-
+
+    Inside the head element, there are six key child elements, or elements that we've put inside of there.
+    
+    1. <title> - Gives us a title of the page 
+    2. <meta> - The meta element allow us to provide metadata about the document that
+                can be anything from the viewport
+    3. <script> - That allows us to write inside the document or linking to another document some script or
+                    code that can make our page more interactive.
+    4. <style> - styles or additional information about how to render certain content.
+    5. <link> - Link which can provide links to a variety of different types of resources that are related to our page.
+    6. <base> - base allows to specify a base address with which all our links to other documents will be based on.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Hello World !</title>
+    <meta name="description" content="A simple introduction to html">
+
+    <!--
+        This is used here to change style of our hello world from getBootstrap.
+    -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <!-- 
+        Adding script so the browser sees the script element it's going to run that script.
+    -->
+    <script>
+        alert("Hello JavaScript!");
+    </script>
+</head>
+    <body>
+        <!-- 
+            <p></p> is used to write paragraph 
+            class = "lead" is used to render it differently , in this way the text pop a little more.
+        -->
+        <p class="lead">Hello world of the Page.</p>
+    </body>
+</html>
