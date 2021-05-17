@@ -1,0 +1,116 @@
+<!-- 
+    Important Notes:
+        > Adding images to a page:
+            Multiple Sources
+            Using images in your page.
+
+        > Including Images in a page:-
+            1. src - Where can the image file be found.
+                    example - src = "coffee.png"
+
+            2. alt - text to display or read in place of the image.
+                    example - alt = "coffee.com"
+
+            3. height/width - control display sizing.
+                                example - height = "150 px" widht = "150 px"
+
+        > ALternate Image Size.
+            Provide Different sizes of the same image set viewport relative sizes based on the media query
+
+            1. srcset - srcset attribute , which allows us to provide different sources, different files with the image
+                        in them , that will have different sizes.
+                        example - srcset = "logo.png 50w , logo-250.png 250w"
+
+            2. sizes - sizes to go along with that , that tell the browser when you , render this i want you to make it relative 
+                        to the viewport, that viewable ara  of the browser window. And what it does is it allows the browser to make
+                        smart decisions about which image file to use and how to render it and how much of the visible space it should 
+                        be taking up on the particular page  that the user's viewing.
+            (vw) -> view window
+
+        > Using Picture to select images
+            Select images based on media querie
+            Select images based on supported image formats
+                Example: 
+                    <picture
+                        <source type = "image/jpg" srcset = " " sizes = " " />
+                        <source type = "image.png" srcset = " " sizes = " " />
+                        <img src = "" alt = "" />
+                    />
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Wired Brain Coffee</title>
+</head>
+<body>
+    
+    <header>
+
+        <!-- 
+            <img src="content/wired-brain-coffee-logo.png"
+            alt="Wired Brain Coffee Logo" height="150px" width="150px" />
+
+            style = "float:left" - meaning we want you to float this particular item to the left of the display port.
+
+        -->
+        <img style="float:left" src="content/wired-brain-coffee-logo.png" alt="Wired Brain Coffee Logo"
+            srcset="content/wired-brain-coffee-logo.png 500w, content/wired-brain-coffee-logo-250.png 250w"
+            sizes="(max-width: 500px) 25vw, 50vw"
+            />
+
+        <div style="float: left; margin-left: 15px">
+
+            <a href="https://google.com/" target="_blank" rel="noreferrer noopener">
+            <h1>Wired Brain Coffee</h1>
+            <h2>Coffee to keep your brain wired</h2>
+        </a>
+        </div>
+
+        <!--
+            style = "clear: both" - That means all this floatig of things that you're doing, floating them left or you can float things right, and it stop doing that at this point.
+        -->
+        <div style="clear: both;" />
+    
+        <nav>
+            <ul>
+                <li><a href="./content/recipes.html">Recipes</a></li>
+                <li><a href="./content/recipes.html#brownies">Brownie Recipe</a></li>
+                <li><a href="./content/nutrition.html">Nutrition Information</a></li>
+            </ul>
+        </nav>
+    </header>
+    <article title="Wired Brain Coffee">
+
+
+    <section id="main">
+        At Wired Brain Coffee, we believe that coffee can be the fuel your active brain needs.
+
+        <p>Coffee has long been known to provide a boost to brain activity and increase blood flow. </p>
+        <p>Another dubious statement about coffee to try and sell it</p>
+
+    </section>
+
+    <section id="testimonials">
+        <h4>Testimonials</h4>
+        <hr />
+        <blockquote cite="http://www.wiredbraincoffee.com/testimonials/test1.html"><abbr title="Wired Brain">WB</abbr> coffee makes my brain feel like it was on fire!</blockquote>
+        <cite>Programmer &lt;America, NY&gt;</cite>
+        
+        <p>
+            <q>I'm productive<sup>3</sup> when I drink this coffee!</q>
+            <!--&nbsp; or <br />-->
+            <br />
+            <cite>Programmer &lt;Chicago, NJ&gt;</cite>
+        </p>
+
+    </section>
+    </article>
+    <footer>
+        &copy; Programmer
+    </footer>
+</body>
+</html>
