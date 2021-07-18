@@ -1,4 +1,4 @@
-<img src="https://img-premium.flaticon.com/png/512/1073/premium/1073666.png?token=exp=1626588776~hmac=8b49ddba1eef4f149dc4555b7d3c5d1e" align="right" width="200" align="right" />
+<img src="" align="right" width="200" align="right" />
 
 # <abbr title = "Hypertext Markup Language">HTML</abbr> CheatSheet
 
