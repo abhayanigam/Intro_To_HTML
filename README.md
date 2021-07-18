@@ -24,7 +24,7 @@ This is the basic template or barebone structure of HTML.
 
 <div class="toolbar">
 
-<div class="toolbar-item"><button type="button">Copy</button></div>
+
 
 </div>
 
@@ -42,7 +42,7 @@ There are six headings available in HTML, H1 is the largest among all, and H6 is
 
 <div class="toolbar">
 
-<div class="toolbar-item"><button type="button">Copy</button></div>
+
 
 </div>
 
@@ -56,7 +56,7 @@ There are six headings available in HTML, H1 is the largest among all, and H6 is
 
 <div class="toolbar">
 
-<div class="toolbar-item"><button type="button">Copy</button></div>
+
 
 </div>
 
@@ -70,7 +70,7 @@ There are six headings available in HTML, H1 is the largest among all, and H6 is
 
 <div class="toolbar">
 
-<div class="toolbar-item"><button type="button">Copy</button></div>
+
 
 </div>
 
@@ -84,7 +84,7 @@ There are six headings available in HTML, H1 is the largest among all, and H6 is
 
 <div class="toolbar">
 
-<div class="toolbar-item"><button type="button">Copy</button></div>
+
 
 </div>
 
@@ -98,7 +98,7 @@ There are six headings available in HTML, H1 is the largest among all, and H6 is
 
 <div class="toolbar">
 
-<div class="toolbar-item"><button type="button">Copy</button></div>
+
 
 </div>
 
@@ -112,7 +112,7 @@ There are six headings available in HTML, H1 is the largest among all, and H6 is
 
 <div class="toolbar">
 
-<div class="toolbar-item"><button type="button">Copy</button></div>
+
 
 </div>
 
@@ -132,7 +132,7 @@ div tag or division tag is used to make blocks or divisions in the document.
 
 <div class="toolbar">
 
-<div class="toolbar-item"><button type="button">Copy</button></div>
+
 
 </div>
 
@@ -148,7 +148,7 @@ span is a container for inline content
 
 <div class="toolbar">
 
-<div class="toolbar-item"><button type="button">Copy</button></div>
+
 
 </div>
 
@@ -164,7 +164,7 @@ Paragraph
 
 <div class="toolbar">
 
-<div class="toolbar-item"><button type="button">Copy</button></div>
+
 
 </div>
 
@@ -180,7 +180,7 @@ pre tag represents pre-formatted text
 
 <div class="toolbar">
 
-<div class="toolbar-item"><button type="button">Copy</button></div>
+
 
 </div>
 
@@ -198,7 +198,7 @@ code tag is used to represent source codes
 
 <div class="toolbar">
 
-<div class="toolbar-item"><button type="button">Copy</button></div>
+
 
 </div>
 
@@ -216,7 +216,7 @@ Text formatting tags are used to format text or data of HTML documents. You can 
 
 <div class="toolbar">
 
-<div class="toolbar-item"><button type="button">Copy</button></div>
+
 
 </div>
 
@@ -230,7 +230,7 @@ Text formatting tags are used to format text or data of HTML documents. You can 
 
 <div class="toolbar">
 
-<div class="toolbar-item"><button type="button">Copy</button></div>
+
 
 </div>
 
@@ -244,7 +244,7 @@ Text formatting tags are used to format text or data of HTML documents. You can 
 
 <div class="toolbar">
 
-<div class="toolbar-item"><button type="button">Copy</button></div>
+
 
 </div>
 
@@ -258,7 +258,7 @@ Text formatting tags are used to format text or data of HTML documents. You can 
 
 <div class="toolbar">
 
-<div class="toolbar-item"><button type="button">Copy</button></div>
+
 
 </div>
 
@@ -272,7 +272,7 @@ Text formatting tags are used to format text or data of HTML documents. You can 
 
 <div class="toolbar">
 
-<div class="toolbar-item"><button type="button">Copy</button></div>
+
 
 </div>
 
@@ -286,7 +286,7 @@ Text formatting tags are used to format text or data of HTML documents. You can 
 
 <div class="toolbar">
 
-<div class="toolbar-item"><button type="button">Copy</button></div>
+
 
 </div>
 
@@ -310,7 +310,7 @@ Ordered list starts with &lt;ol&gt; tag and each list item starts with &lt;li&gt
 
 <div class="toolbar">
 
-<div class="toolbar-item"><button type="button">Copy</button></div>
+
 
 </div>
 
@@ -327,7 +327,7 @@ Ordered list starts with &lt;ol&gt; tag and each list item starts with &lt;li&gt
 
 <div class="toolbar">
 
-<div class="toolbar-item"><button type="button">Copy</button></div>
+
 
 </div>
 
@@ -350,7 +350,7 @@ It is used to embed sound content in the document.
 
 <div class="toolbar">
 
-<div class="toolbar-item"><button type="button">Copy</button></div>
+
 
 </div>
 
@@ -366,7 +366,7 @@ It is used to embed or import image in a webpage.
 
 <div class="toolbar">
 
-<div class="toolbar-item"><button type="button">Copy</button></div>
+
 
 </div>
 
@@ -385,7 +385,7 @@ It is used to embed video in the webpage.
 
 <div class="toolbar">
 
-<div class="toolbar-item"><button type="button">Copy</button></div>
+
 
 </div>
 
@@ -430,7 +430,7 @@ A table is a collection of rows and columns. It is used to represent data in tab
 
 <div class="toolbar">
 
-<div class="toolbar-item"><button type="button">Copy</button></div>
+
 
 </div>
 
@@ -450,7 +450,7 @@ Links are clickable text that can redirect you to some other page.
 
 <div class="toolbar">
 
-<div class="toolbar-item"><button type="button">Copy</button></div>
+
 
 </div>
 
@@ -479,7 +479,7 @@ Form is used to collect user's input, generally user's data is sent to server fo
 
 <div class="toolbar">
 
-<div class="toolbar-item"><button type="button">Copy</button></div>
+
 
 </div>
 
@@ -497,7 +497,7 @@ Some symbols are not directly present on the keyboard, but there are some ways t
 
 <div class="toolbar">
 
-<div class="toolbar-item"><button type="button">Copy</button></div>
+
 
 </div>
 
@@ -511,7 +511,7 @@ Some symbols are not directly present on the keyboard, but there are some ways t
 
 <div class="toolbar">
 
-<div class="toolbar-item"><button type="button">Copy</button></div>
+
 
 </div>
 
@@ -525,7 +525,7 @@ Some symbols are not directly present on the keyboard, but there are some ways t
 
 <div class="toolbar">
 
-<div class="toolbar-item"><button type="button">Copy</button></div>
+
 
 </div>
 
@@ -539,7 +539,7 @@ Some symbols are not directly present on the keyboard, but there are some ways t
 
 <div class="toolbar">
 
-<div class="toolbar-item"><button type="button">Copy</button></div>
+
 
 </div>
 
@@ -553,7 +553,7 @@ Some symbols are not directly present on the keyboard, but there are some ways t
 
 <div class="toolbar">
 
-<div class="toolbar-item"><button type="button">Copy</button></div>
+
 
 </div>
 
@@ -571,7 +571,7 @@ Some symbols are not directly present on the keyboard, but there are some ways t
 
 <div class="toolbar">
 
-<div class="toolbar-item"><button type="button">Copy</button></div>
+
 
 </div>
 
@@ -587,7 +587,7 @@ Some symbols are not directly present on the keyboard, but there are some ways t
 
 <div class="toolbar">
 
-<div class="toolbar-item"><button type="button">Copy</button></div>
+
 
 </div>
 
@@ -607,7 +607,7 @@ It defines a section in the document
 
 <div class="toolbar">
 
-<div class="toolbar-item"><button type="button">Copy</button></div>
+
 
 </div>
 
@@ -623,7 +623,7 @@ It represents self-contained content
 
 <div class="toolbar">
 
-<div class="toolbar-item"><button type="button">Copy</button></div>
+
 
 </div>
 
@@ -639,7 +639,7 @@ It is used to place content in the sidebar
 
 <div class="toolbar">
 
-<div class="toolbar-item"><button type="button">Copy</button></div>
+
 
 </div>
 
