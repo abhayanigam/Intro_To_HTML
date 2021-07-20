@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+    <body>
+        <!--
+            <mark>
+                <mark> is a tag used to highlight or mark a part of a text. 
+                This tag supports all HTML global attributes, the default color is black with a yellow background color. 
+        -->
+        <p>
+            in this paragraph, there is a text
+            <!-- 
+                by default => (
+                    color: black;                
+                    background-color: yellow;
+                )
+            -->
+            <mark>highlighted.</mark>
+
+            <p>
+                You can change the yellow color like this:
+                <mark style="background-color:green">highlighted</mark>
+            </p> 
+        </p>
+
+        <!-- 
+            <address>
+                <address> is a tag that displays the contact information like email and phone number of the 
+                author of a document or an article, additionally, it supports all Html global attributes.
+        -->
+        <address>
+            Posted by
+            <a href="https://google.com"> Aya Bouchiha </a>
+            <br />
+            Email Address:
+            <a href="abc@gmail.com">
+                abc@gmail.com
+            </a>
+            <br />
+            Phone Number:
+            <a href="tel:+0000000001">+0000000001 </a>
+            <br />
+            Morocco, Azemmour
+        </address>
+
+        <!-- 
+            <var>
+                <var>: supports all HTML global attributes and indicates the name of 
+                mathematical variables such as x and y, by default its text content is italic.
+        -->
+            <!--
+                by default (
+                    var {
+                        font-style: italic;
+                    }
+                )
+            -->
+            <p>Ex:1 solve this equation:</p>
+            <var>4x</var> + <var>2y</var> = 12
+
+
+        <p>
+            <input
+            type="text"
+            placeholder="full name..."
+            pattern="[A-z]{8,16}"
+            title="the full name should be between 4 and 15 letters"
+        />
+        <input type="submit" />
+        </p>
+
+    </body>
+</html>
