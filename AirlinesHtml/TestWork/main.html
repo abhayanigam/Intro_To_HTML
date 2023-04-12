@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+      body {
+        background-image: url('https://media2.giphy.com/media/l41lRo0kLbZpjC8OA/200.webp?cid=ecf05e47o7bva1ix2znbcpnz0zv9lyyifnm2kxpynfunfqvt&rid=200.webp&ct=g');
+        background-repeat: no-repeat;
+        background-attachment: fixed; 
+        background-size: 100% 100%;
+      }
+      </style>
+</head>
+<body>
+    <!-- Nav Bar -->
+    <div class="w3-top" >
+        <div class="w3-bar w3-grey w3-card">
+            <header class="text-white-600 body-font">
+                <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+                  <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
+                      <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+                    </svg>
+                    <b><span class="ml-3 text-xl">BookYourFlight</span></b>
+                  </a>
+                <div class="search md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
+                    <input type="text" name="" id="" placeholder=" Search here ">
+                    <button class="inline-flex items-center bg-black-100 border-0 py-1 px-3 focus:outline-none hover:bg-blue-200 rounded text-base mt-4 md:mt-0">SUBMIT
+                      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+                      </svg>
+                    </button>
+                    </div>
+                <div class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+                    <a href="/About.html" class="mr-5 hover:text-gray-900">About</a>
+                    <a href="/Contact.html" class="mr-5 hover:text-gray-900">Contact</a>
+                </div>
+                  <button class="inline-flex items-center bg-black-100 border-0 py-1 px-3 focus:outline-none hover:bg-blue-200 rounded text-base mt-4 md:mt-0">LOGIN
+                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+                    </svg>
+                  </button>
+                  <button class="inline-flex items-center bg-black-100 border-0 py-1 px-3 focus:outline-none hover:bg-blue-200 rounded text-base mt-4 md:mt-0">SIGN UP
+                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+                    </svg>
+                  </button>
+                </div>
+              </header>
+        </div>
+    </div>
+
+    <section class="text-gray-600 body-font">
+        <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+          <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+            <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Knausgaard typewriter readymade marfa</h1>
+            <p class="mb-8 leading-relaxed">
+              Chillwave portland ugh, knausgaard fam polaroid iPhone. Man braid swag typewriter affogato, hella selvage wolf narwhal dreamcatcher.
+            </p>
+            <div class="flex w-full md:justify-start justify-center items-end">
+              
+              <section class="text-gray-600 body-font">
+                <p>Any worldwide city or airport</p>
+                <div class="container px-0 py-5 mx-auto">
+                  <div class="flex lg:w-3/3 w-full sm:flex-row flex-col mx-auto px-8 sm:space-x-4 sm:space-y-0 space-y-4 sm:px-0 items-end">
+                    <div class="relative flex-grow w-full">
+                      <label for="full-name" class="leading-7 text-sm text-gray-600">From</label>
+                      <input type="text" id="full-name" name="full-name" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-purple-500 focus:bg-transparent focus:ring-2 focus:ring-purple-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                    </div>
+                    <div class="relative flex-grow w-full">
+                      <label for="email" class="leading-7 text-sm text-gray-600">To</label>
+                      <input type="email" id="email" name="email" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-purple-500 focus:bg-transparent focus:ring-2 focus:ring-purple-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                    </div>
+                    <!-- <button class="text-white bg-purple-500 border-0 py-2 px-8 focus:outline-none hover:bg-purple-600 rounded text-lg">Button</button> -->
+                  </div>
+                </div>
+
+                <div class="container px-0 py-0 mx-auto">
+                  <div class="flex lg:w-3/3 w-full sm:flex-row flex-col mx-auto px-8 sm:space-x-4 sm:space-y-0 space-y-4 sm:px-0 items-end">
+                    <div class="relative flex-grow w-full">
+                      <label for="full-name" class="leading-7 text-sm text-gray-600">Depart on:</label>
+                      <input type="date" name="date" id="date" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-purple-500 focus:bg-transparent focus:ring-2 focus:ring-purple-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                    </div>
+                    <div class="relative flex-grow w-full">
+                      <label for="email" class="leading-7 text-sm text-gray-600">Return on:</label>
+                      <input type="date" name="date" id="date" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-purple-500 focus:bg-transparent focus:ring-2 focus:ring-purple-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                    </div>
+                  </div>
+                </div>
+                <div class="container px-0 py-0 mx-auto">
+                  <div class="flex lg:w-3/3 w-full sm:flex-row flex-col mx-auto px-8 sm:space-x-4 sm:space-y-0 space-y-4 sm:px-0 items-end">
+                    <div class="relative flex-grow w-full">
+                      <br>
+                      <label for="full-name" class="leading-7 text-sm text-gray-600">ADULTS:</label>
+                      <div class="flex ml-6">
+                        <div class="relative">
+                          <select class="rounded border appearance-none border-gray-300 py-2 focus:outline-none focus:ring-2 focus:ring-purple-200 focus:border-purple-500 text-base pl-3 pr-10">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                          </select>
+                          <span class="absolute right-0 top-0 h-full w-10 text-center text-gray-600 pointer-events-none flex items-center justify-center">
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4" viewBox="0 0 24 24">
+                              <path d="M6 9l6 6 6-6"></path>
+                            </svg>
+                          </span>
+                        </div>
+                      </div>
+                      
+                    </div>
+                    <div class="relative flex-grow w-full">
+                      <br>
+                      <label for="full-name" class="leading-7 text-sm text-gray-600">CHILDREN:</label>
+                      <div class="flex ml-6">
+                        <div class="relative">
+                          <select class="rounded border appearance-none border-gray-300 py-2 focus:outline-none focus:ring-2 focus:ring-purple-200 focus:border-purple-500 text-base pl-3 pr-10">
+                            <option>0</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                          </select>
+                          <span class="absolute right-0 top-0 h-full w-10 text-center text-gray-600 pointer-events-none flex items-center justify-center">
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4" viewBox="0 0 24 24">
+                              <path d="M6 9l6 6 6-6"></path>
+                            </svg>
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="relative flex-grow w-full">
+                      <br>
+                      <label for="full-name" class="leading-7 text-sm text-gray-600">INFANTS:</label>
+                      <div class="flex ml-6">
+                        <div class="relative">
+                          <select class="rounded border appearance-none border-gray-300 py-2 focus:outline-none focus:ring-2 focus:ring-purple-200 focus:border-purple-500 text-base pl-3 pr-10">
+                            <option>0</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                          </select>
+                          <span class="absolute right-0 top-0 h-full w-10 text-center text-gray-600 pointer-events-none flex items-center justify-center">
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4" viewBox="0 0 24 24">
+                              <path d="M6 9l6 6 6-6"></path>
+                            </svg>
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+
+                    <button class="text-white bg-purple-500 border-0 py-2 px-8 focus:outline-none hover:bg-purple-600 rounded text-lg">Select</button>
+                  </div>
+                </div>
+                <br>
+                <div class="p-2 w-full">
+                  <button class="flex mx-auto text-white bg-purple-500 border-0 py-2 px-8 focus:outline-none hover:bg-purple-600 rounded text-lg">Apply</button>
+                </div>
+              </section>
+
+            </div>
+          </div>
+          <div class="lg:max-w-lg lg:w-full md:w-1/1 w-5/6">
+            <img class="object-cover object-center rounded" alt="hero" src="https://images.pexels.com/photos/2294272/pexels-photo-2294272.jpeg">
+          </div>
+        </div>
+
+          <div class="flex flex-col text-center w-full mb-2">
+            <h1 class="sm:text-3xl text-2xl font-medium title-font mb-1 text-gray-900">Master Cleanse Reliac Heirloom</h1>
+          </div>
+      
+          <hr>
+
+        <div class="container px-1 py-1 mx-auto">
+        <div class="flex flex-wrap -m-4">
+          <div class="lg:w-1/3 sm:w-1/2 p-4">
+            <div class="flex relative">
+              <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="https://img.freepik.com/free-vector/happy-woman-riding-plane-aircraft-flat-vector-illustration-tourist-travelling-by-airplane-flying-planet-with-location-pins-transport-travel-trip-journey-concept_74855-26048.jpg?w=1060&t=st=1680254214~exp=1680254814~hmac=5a2cf3fe44994d6545dba0138ba5d508170f0cb4399eb4ea869984c7fada9b9a">
+              <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                <h2 class="tracking-widest text-sm title-font font-medium text-purple-500 mb-1">THE SUBTITLE</h2>
+                <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Shooting Stars</h1>
+                <p class="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+              </div>
+            </div>
+          </div>
+          <div class="lg:w-1/3 sm:w-1/2 p-4">
+            <div class="flex relative">
+              <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="https://img.freepik.com/free-vector/tiny-man-buying-ticket-online-via-laptop-monitor-plane-baggage-flat-vector-illustration-travelling-digital-technology_74855-8621.jpg?w=1060&t=st=1680254254~exp=1680254854~hmac=a71316510a12b309ad2b6fbd235595676cc86b51e230ed0610a4d05e763699e5">
+              <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                <h2 class="tracking-widest text-sm title-font font-medium text-purple-500 mb-1">THE SUBTITLE</h2>
+                <h1 class="title-font text-lg font-medium text-gray-900 mb-3">The Catalyzer</h1>
+                <p class="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+              </div>
+            </div>
+          </div>
+          <div class="lg:w-1/3 sm:w-1/2 p-4">
+            <div class="flex relative">
+              <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="https://img.freepik.com/free-vector/plane-service-isolated-flat-vector-illustration-cartoon-mechanics-repairing-airplane-before-flight-adding-fuel-aircraft-maintenance-aviation-concept_74855-10134.jpg?w=1060&t=st=1680254319~exp=1680254919~hmac=0acae4511a3dce3bddcbc2dd44418b3ee0f5f791cdb5189b4244ae87a7120fd8">
+              <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                <h2 class="tracking-widest text-sm title-font font-medium text-purple-500 mb-1">THE SUBTITLE</h2>
+                <h1 class="title-font text-lg font-medium text-gray-900 mb-3">The 400 Blows</h1>
+                <p class="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+              </div>
+            </div>
+          </div>
+          <div class="lg:w-1/3 sm:w-1/2 p-4">
+            <div class="flex relative">
+              <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="https://img.freepik.com/free-vector/plane-sky-with-balloon-flat-style_1308-102542.jpg?w=1380&t=st=1680254320~exp=1680254920~hmac=52a44eb7c598f9ebcb8148a673e13e180f69e17d9ee740120f1d8308f97518b9">
+              <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                <h2 class="tracking-widest text-sm title-font font-medium text-purple-500 mb-1">THE SUBTITLE</h2>
+                <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Neptune</h1>
+                <p class="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+              </div>
+            </div>
+          </div>
+          <div class="lg:w-1/3 sm:w-1/2 p-4">
+            <div class="flex relative">
+              <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="https://img.freepik.com/free-vector/flight-attendant-explaining-safety-instructions-passenger-airplane-belt-flat-vector-illustration-travelling-vacation-concept_74855-10064.jpg?w=1060&t=st=1680254343~exp=1680254943~hmac=d6e51fac95282f7fd2576e4143515242cc90d783f20baa6122b4e25d8b9f6693">
+              <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                <h2 class="tracking-widest text-sm title-font font-medium text-purple-500 mb-1">THE SUBTITLE</h2>
+                <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Holden Caulfield</h1>
+                <p class="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+              </div>
+            </div>
+          </div>
+          <div class="lg:w-1/3 sm:w-1/2 p-4">
+            <div class="flex relative">
+              <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="https://img.freepik.com/free-vector/woman-visiting-psychologist_74855-4824.jpg?t=st=1680236808~exp=1680237408~hmac=507a73c158d4190eae1d3e4502f3b5534bdcd331e3bdb3152266737159045df2">
+              <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                <h2 class="tracking-widest text-sm title-font font-medium text-purple-500 mb-1">THE SUBTITLE</h2>
+                <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Alper Kamu</h1>
+                <p class="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container px-5 py-8 mx-auto">
+        <div class="xl:w-1/2 lg:w-3/4 w-full mx-auto text-center">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="inline-block w-8 h-8 text-gray-400 mb-8" viewBox="0 0 975.036 975.036">
+            <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"></path>
+          </svg>
+          <b><p class="leading-relaxed text-black">Thanks to online portals, you don’t have to depend on travel agents or anyone else to make flight bookings. You can use your laptop or mobile phone to go through all the available flights, hotels, resorts, and more to make all your" flight ticket bookings. Most of these portals offer many festive flight offers that will help you book international and domestic flights at great prices. This way, you can stay within your budget. Once you take care of your travel arrangements, you can also look through all the accommodation options available. Make sure that you go through all the reviews of the various properties listed online so that you can have a pleasant stay. Without doing enough research, you may end up paying a lot of money for a place that doesn’t suit your needs. So, while looking at the best flight offers online, you can also go through numerous blogs and articles about the best places to stay at your destination. This will help you find romantic, adventurous, or chilled-out properties. Once all your arrangements are done, you can plan your itinerary, pack your bags, and countdown the days until your much-awaited getaway. The information you are reading has been last updated on 23-Apr-22.</p></b>
+          <span class="inline-block h-1 w-10 rounded bg-indigo-500 mt-8 mb-6"></span>
+        </div>
+      </div>
+      
+      <div class="w3-bar w3-grey w3-card">
+        <footer class="text-gray-600 body-font">
+          <div class="container px-1 py-1 mx-auto flex items-center sm:flex-row flex-col">
+            <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
+                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+              </svg>
+              <b><span class="ml-3 text-xl">BookYourFlight</span></b>
+            </a>
+            <p class="text-sm text-black sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2020 Mayank&Bhupendra —
+              <a href="https://twitter.com/knyttneve" class="text-black-600 ml-1" rel="noopener noreferrer" target="_blank">@M&B</a>
+            </p>
+            <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+              <a class="text-black">
+                <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                </svg>
+              </a>
+              <a class="ml-3 text-black">
+                <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                </svg>
+              </a>
+              <a class="ml-3 text-black">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                  <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                </svg>
+              </a>
+              <a class="ml-3 text-black">
+                <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+                  <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                </svg>
+              </a>
+            </span>
+          </div>
+        </footer>
+      </div>
+
+    </section>
+
+</body>
+</html>
