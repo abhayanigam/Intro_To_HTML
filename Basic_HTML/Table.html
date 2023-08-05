@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Tut</title>
+</head>
+<style>
+    table#table1, th, td {
+      border: 1px solid black;
+      <!-- border-collapse: collapse; --> <!-- To avoid having double borders like in the example above, set the CSS border-collapse property to collapse -->
+      border-radius: 10px; <!--With the border-radius property, the borders get rounded corners-->
+    }
+    th, td {
+        background-color: #96D4D4;
+        border-style: dotted;
+        border-color: #96D4D4;
+    }
+</style>
+<body>
+    <p>Use the CSS border property to add a border to the table.</p>
+    <table style="width:100%" id="table1">
+    <tr>
+        <th>Firstname</th>
+        <th>Lastname</th> 
+        <th>Age</th>
+    </tr>
+    <tr>
+        <td>Jill</td>
+        <td>Smith</td>
+        <td>50</td>
+    </tr>
+    <tr>
+        <td>Eve</td>
+        <td>Jackson</td>
+        <td>94</td>
+    </tr>
+    <tr>
+        <td>John</td>
+        <td>Doe</td>
+        <td>80</td>
+    </tr>
+    </table>
+    
+    <!-- 
+        Dotted Table Borders
+            With the border-style property, you can set the appearance of the border.
+            The following values are allowed:
+                dotted     
+                dashed     
+                solid     
+                double     
+                groove     
+                ridge     
+                inset     
+                outset     
+                none     
+                hidden     
+     -->
+
+     <!-- Table Sizes -->
+     <!-- Set the width of the table to 100%: -->
+     <table style="width:100%">
+        <tr>
+          <th>Firstname</th>
+          <th>Lastname</th>
+          <th>Age</th>
+        </tr>
+        <tr>
+          <td>Jill</td>
+          <td>Smith</td>
+          <td>50</td>
+        </tr>
+        <tr>
+          <td>Eve</td>
+          <td>Jackson</td>
+          <td>94</td>
+        </tr>
+      </table>
+
+      <!-- Set the width of the first column to 70%: -->
+      <table style="width:100%">
+        <tr>
+          <th style="width:70%">Firstname</th>
+          <th>Lastname</th>
+          <th>Age</th>
+        </tr>
+        <tr>
+          <td>Jill</td>
+          <td>Smith</td>
+          <td>50</td>
+        </tr>
+        <tr>
+          <td>Eve</td>
+          <td>Jackson</td>
+          <td>94</td>
+        </tr>
+      </table>
+
+      <!-- Set the height of a specific row, add the style attribute on a table row element -->
+      <table style="width:100%">
+        <tr>
+          <th>Firstname</th>
+          <th>Lastname</th>
+          <th>Age</th>
+        </tr>
+        <tr style="height:200px">
+          <td>Jill</td>
+          <td>Smith</td>
+          <td>50</td>
+        </tr>
+        <tr>
+          <td>Eve</td>
+          <td>Jackson</td>
+          <td>94</td>
+        </tr>
+      </table>
+
+      
+</body>
+</html>
